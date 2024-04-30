@@ -1,0 +1,38 @@
+.CardComp {
+  height: 85vh;
+  width: 90vw;
+  border: 2px solid black;
+}
+
+.cardss {
+  /* background-color: red; */
+  height: 70vh;
+  width: 80vw;
+  /* border: 1px solid black; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.img {
+  /* grid-column-start: 1;
+  grid-column-end: 2; */
+  height: 60vh;
+  width: 50vw;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .cardss {
+    height: 80vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
+  .img {
+    height: 40vh;
+    width: 67vw;
+  }
+}
